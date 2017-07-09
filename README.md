@@ -1,6 +1,12 @@
 # samples-rest-docserver
 Provide a REST interface to the document server service This UrlMap maps http requests to the classmethod to which it should be dispatched Example usages. In these examples please replace the host name and port with appropriate values for your situation.
 
+# Installation
+
+Import the latest [release](https://github.com/intersystems-community/samples-rest-docserver/releases) into Namespace and use.
+
+# Use cases
+
 Get the text of the class Samples/Sample.Person 
 
 curl http://localhost:57772/csp/samples/docserver/class/samples/Sample.Person
